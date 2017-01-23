@@ -1,0 +1,32 @@
+.nav-wrapper {
+  box-shadow: 10px 10px 5px black; }
+
+.comment-title {
+  text-align: center; }
+
+.comment-card {
+  border: 5px solid #42A5F5;
+  box-shadow: 10px 10px 5px #3066BE;
+  width: 100%;
+  margin-top: 5%; }
+
+.author-pic {
+  float: left;
+  margin-top: 1%; }
+
+.testemonial {
+  padding-left: 12%; }
+
+.about-title {
+  text-align: center; }
+
+.faq-title {
+  text-align: center; }
+
+.faq-card {
+  border: 5px solid #42A5F5;
+  box-shadow: 10px 10px 5px #3066BE;
+  width: 100%;
+  margin-top: 5%; }
+
+/*# sourceMappingURL=main.css.map */

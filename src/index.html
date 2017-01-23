@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="referralApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Teach Online</title>
+    <base href="/">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body ng-cloak>
+    <!-- navigation start -->
+    <nav class="container blue lighten-1">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo left waves-effect waves-blue"><h4 class="nav-title">Want to Teach Online?</h4></a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/about" class="nav-title waves-effect waves-blue"><i class="material-icons left">info</i>About</a>
+            <a href="/F.A.Q." class="nav-title waves-effect waves-blue"><i class="material-icons left">help</i>F.A.Q.</a>
+            <a href="/"class="nav-title waves-effect waves-blue"><i class="material-icons left">create</i>Register Here</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navigation end -->
+    <div ui-view></div>
+    <!-- scripts -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.10.3/angular-moment.min.js"></script>
+    <!-- app config -->
+    <script type="text/javascript" src="config/app.js"></script>
+    <script type="text/javascript" src="config/config.js"></script>
+    <!-- main components -->
+    <script type="text/javascript" src="components/main/main.controller.js"></script>
+    <script type="text/javascript" src="components/about/about.controller.js"></script>
+    <script type="text/javascript" src="components/faq/faq.controller.js"></script>
+    <!-- services -->
+    <script type="text/javascript" src="components/faq/faq.service.js"></script>
+    <script type="text/javascript" src="components/main/main.service.js"></script>
+
+  </body>
+</html>
