@@ -1,14 +1,22 @@
+body {
+  background-color: #4C5454;
+  color: white; }
+
 .nav-wrapper {
-  box-shadow: 10px 10px 5px black; }
+  box-shadow: 10px 10px 5px black;
+  margin-top: 3%; }
 
 .comment-title {
-  text-align: center; }
+  text-align: center;
+  text-shadow: 2px 2px black; }
 
 .comment-card {
   border: 5px solid #42A5F5;
   box-shadow: 10px 10px 5px #3066BE;
   width: 100%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  color: black;
+  background-color: white; }
 
 .author-pic {
   float: left;
@@ -20,6 +28,14 @@
 .about-title {
   text-align: center; }
 
+.about-content {
+  border: 5px solid #42A5F5;
+  box-shadow: 10px 10px 5px #3066BE;
+  color: black;
+  background-color: white;
+  height: 400px;
+  margin-top: 5%; }
+
 .faq-title {
   text-align: center; }
 
@@ -27,6 +43,8 @@
   border: 5px solid #42A5F5;
   box-shadow: 10px 10px 5px #3066BE;
   width: 100%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  color: black;
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */

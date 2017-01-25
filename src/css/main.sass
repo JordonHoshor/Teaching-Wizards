@@ -1,27 +1,37 @@
 // colors
 $blue: #42A5F5
-$red: #A23E48
+$gray: #4C5454
 $teal: #2AF5FF
 $secondary-blue: #3066BE
 $purple: #963484
 
 // accents
-$faqborder: 5px solid $blue
+$border: 5px solid $blue
+$shadow: 10px 10px 5px $secondary-blue
+$font-shadow: 2px 2px black
+
+body
+  background-color: $gray
+  color: white
 
 // navigation styles
 .nav-wrapper
   box-shadow: 10px 10px 5px black
+  margin-top: 3%
 // end navigation styles
 
 // main view styles
 .comment-title
   text-align: center
+  text-shadow: $font-shadow
 
 .comment-card
-  border: $faqborder
-  box-shadow: 10px 10px 5px $secondary-blue
+  border: $border
+  box-shadow: $shadow
   width: 100%
   margin-top: 5%
+  color: black
+  background-color: white
 
 .author-pic
   float: left
@@ -34,6 +44,14 @@ $faqborder: 5px solid $blue
 // about view styles
 .about-title
   text-align: center
+
+.about-content
+  border: $border
+  box-shadow: $shadow
+  color: black
+  background-color: white
+  height: 400px
+  margin-top: 5%
 // end about view styles
 
 // faq view styles
@@ -41,8 +59,10 @@ $faqborder: 5px solid $blue
   text-align: center
 
 .faq-card
-  border: $faqborder
-  box-shadow: 10px 10px 5px $secondary-blue
+  border: $border
+  box-shadow: $shadow
   width: 100%
   margin-top: 5%
+  color: black
+  background-color: white
 // end faq view styles
