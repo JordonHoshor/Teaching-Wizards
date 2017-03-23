@@ -1,6 +1,6 @@
 body {
-  background-color: #4C5454;
-  color: white; }
+  background-color: white;
+  color: #42A5F5; }
 
 .nav-wrapper {
   box-shadow: 10px 10px 5px black;
@@ -35,7 +35,7 @@ body {
   box-shadow: 10px 10px 5px #3066BE;
   color: black;
   background-color: white;
-  height: 400px;
+  height: 800px;
   margin-top: 5%;
   padding: 1%; }
 
